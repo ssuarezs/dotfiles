@@ -35,4 +35,5 @@ docs/
 ├── documentation-guidelines.md
 ├── symlink-over-copy.md
 ├── macos-windows-scope.md
+├── commit-conventions.md
 ```
