@@ -2,7 +2,7 @@
 
 ## 💡 Convention
 
-Global AI agent instructions live in one canonical, tool-agnostic file, `macos/agents/GLOBAL_AGENTS.md`, never named after a specific tool. Each tool's expected config path (e.g. `~/.claude/CLAUDE.md`) is a symlink pointing at it.
+Global AI agent instructions live in one canonical, tool-agnostic file, `macos/ia/GLOBAL_AGENTS.md`, never named after a specific tool. Each tool's expected config path (e.g. `~/.claude/CLAUDE.md`) is a symlink pointing at it.
 
 ## 🏆 Benefits
 
@@ -14,7 +14,7 @@ Global AI agent instructions live in one canonical, tool-agnostic file, `macos/a
 ### ✅ Good
 
 ```bash
-ln -s "$PWD/macos/agents/GLOBAL_AGENTS.md" "$HOME/.claude/CLAUDE.md"
+ln -s "$PWD/macos/ia/GLOBAL_AGENTS.md" "$HOME/.claude/CLAUDE.md"
 ```
 
 ### ❌ Bad

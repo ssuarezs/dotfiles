@@ -23,4 +23,4 @@ link() {
   echo "Created symlink $link_path → $target"
 }
 
-link "$project_dir/macos/agents/GLOBAL_AGENTS.md" "$HOME/.claude/CLAUDE.md"
+link "$project_dir/macos/ia/GLOBAL_AGENTS.md" "$HOME/.claude/CLAUDE.md"
