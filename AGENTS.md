@@ -8,11 +8,12 @@ Personal dotfiles, managed for two machines with different scopes:
 # Useful commands
 
 ```bash
-make claude-symlinks # macOS: symlink AGENTS.md -> CLAUDE.md and .claude/skills -> .agents/skills across the repo
+bash etc/scripts/generate-claude-symlinks.sh # macOS
+bash etc/scripts/install-macos.sh # macOS
 ```
 
 ```powershell
-./etc/scripts/generate-claude-symlinks.ps1 # Windows: same as above, run from an elevated PowerShell or with Developer Mode on
+./etc/scripts/generate-claude-symlinks.ps1 # Windows
 ```
 
 # Architecture
