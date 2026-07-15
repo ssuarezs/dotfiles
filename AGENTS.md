@@ -37,4 +37,7 @@ docs/
 ├── symlink-over-copy.md
 ├── macos-windows-scope.md
 ├── commit-conventions.md
+├── install-entrypoints.md
+└── macos/
+    └── global-agent-instructions.md
 ```
