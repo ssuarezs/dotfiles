@@ -1,0 +1,31 @@
+gui:
+  mouseEvents: false
+
+git:
+  autoFetch: false
+  diffRenderers:
+    - type: stdinFilter
+      command: delta --dark --paging=never --syntax-theme="Solarized (dark)"
+      colorArg: always
+
+os:
+  editPreset: nvim-remote
+  edit: >-
+    if [ -z "$NVIM" ]; then
+      nvim -- {{filename}};
+    else
+      nvim --server "$NVIM" --remote-expr "v:lua.ssuarezs.git.edit_from_lazygit('$PWD/"{{filename}}"')";
+    fi
+  editAtLine: >-
+    if [ -z "$NVIM" ]; then
+      nvim +{{line}} -- {{filename}};
+    else
+      nvim --server "$NVIM" --remote-expr "v:lua.ssuarezs.git.edit_from_lazygit('$PWD/"{{filename}}"', {{line}})";
+    fi
+
+customCommands:
+  - key: C
+    context: files
+    command: git cz
+    description: Commit with Commitizen
+    output: terminal

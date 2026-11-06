@@ -168,6 +168,7 @@ link_with_backup "$DOTFILES_DIR/tmux" "$HOME/.config/tmux"
 remove_legacy_tmux_conf
 link_with_backup "$DOTFILES_DIR/ghostty" "$HOME/.config/ghostty"
 link_with_backup "$DOTFILES_DIR/nvim" "$HOME/.config/nvim"
+link_with_backup "$DOTFILES_DIR/lazygit" "$HOME/.config/lazygit"
 if is_macos; then
   link_with_backup "$DOTFILES_DIR/karabiner" "$HOME/.config/karabiner"
 fi
