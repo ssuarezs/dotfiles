@@ -27,3 +27,12 @@ map("n", "<leader>o", "o<Esc>^Da", { desc = "New line below without comment" })
 map("n", "<leader>O", "O<Esc>^Da", { desc = "New line above without comment" })
 
 map("n", "<leader>bd", ssuarezs.editor.close_hidden_buffers, { desc = "Close hidden buffers" })
+
+map("n", "<leader>yf", function()
+	ssuarezs.editor.copy_file_location(false)
+end, { desc = "Copy relative file location" })
+map("n", "<leader>yp", function()
+	ssuarezs.editor.copy_file_location(true)
+end, { desc = "Copy absolute file location" })
+map("x", "<leader>cc", ssuarezs.editor.copy_selection_as_code_block, { desc = "Copy selection as code block" })
+map("n", "<leader>j", ssuarezs.editor.show_package_json, { desc = "Show package.json" })
