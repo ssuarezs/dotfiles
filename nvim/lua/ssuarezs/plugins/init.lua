@@ -29,6 +29,10 @@ vim.pack.add({
 	{ src = "https://github.com/saghen/blink.cmp", version = vim.version.range("^1") },
 	"https://github.com/nvim-mini/mini.pairs",
 	"https://github.com/stevearc/conform.nvim",
+	"https://github.com/lewis6991/gitsigns.nvim",
+	{ src = "https://github.com/craftzdog/mini.diff", version = "feat/grouping" },
+	"https://github.com/esmuellert/codediff.nvim",
+	"https://github.com/linrongbin16/gitlinker.nvim",
 })
 
 require("ssuarezs.plugins.ui")
@@ -37,4 +41,5 @@ require("ssuarezs.plugins.highlighting")
 require("ssuarezs.plugins.completion")
 require("ssuarezs.plugins.lsp")
 require("ssuarezs.plugins.formatting")
+require("ssuarezs.plugins.git")
 require("ssuarezs.plugins.keymaps")
