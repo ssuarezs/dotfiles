@@ -14,7 +14,7 @@ map("n", "te", "<cmd>tabnew<cr>", { desc = "New tab" })
 map("n", "<Tab>", "<cmd>tabnext<cr>", { desc = "Next tab" })
 map("n", "<S-Tab>", "<cmd>tabprevious<cr>", { desc = "Previous tab" })
 
-map("n", "ss", "<cmd>split<cr>", { desc = "Horizontal split" })
+map("n", "sd", "<cmd>split<cr>", { desc = "Horizontal split" })
 map("n", "sv", "<cmd>vsplit<cr>", { desc = "Vertical split" })
 map("n", "sh", "<C-w>h", { desc = "Focus left split" })
 map("n", "sj", "<C-w>j", { desc = "Focus lower split" })
