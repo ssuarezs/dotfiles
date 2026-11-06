@@ -1,0 +1,36 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# Editors
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Secrets and machine-local overrides
+.env
+.env.*
+*.local
+*.secret
+*.pem
+*.key
+.zshrc.local
+.zsh_history
+.zcompdump*
+
+# Tool-generated state
+karabiner/automatic_backups/
+tmux/plugins/
+tmux/resurrect/
+ghostty/*.log
+
+# Logs and temp files
+*.log
+*.tmp
