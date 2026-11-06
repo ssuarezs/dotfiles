@@ -33,6 +33,7 @@ vim.pack.add({
 	{ src = "https://github.com/craftzdog/mini.diff", version = "feat/grouping" },
 	"https://github.com/esmuellert/codediff.nvim",
 	"https://github.com/linrongbin16/gitlinker.nvim",
+	"https://github.com/zbirenbaum/copilot.lua",
 })
 
 require("ssuarezs.plugins.ui")
@@ -42,4 +43,5 @@ require("ssuarezs.plugins.completion")
 require("ssuarezs.plugins.lsp")
 require("ssuarezs.plugins.formatting")
 require("ssuarezs.plugins.git")
+require("ssuarezs.plugins.ai")
 require("ssuarezs.plugins.keymaps")
