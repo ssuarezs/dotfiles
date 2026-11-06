@@ -5,7 +5,9 @@ vim.pack.add({
 	"https://github.com/b0o/incline.nvim",
 	"https://github.com/folke/snacks.nvim",
 	"https://github.com/rachartier/tiny-cmdline.nvim",
+	"https://github.com/stevearc/oil.nvim",
 })
 
 require("ssuarezs.plugins.ui")
+require("ssuarezs.plugins.navigation")
 require("ssuarezs.plugins.keymaps")
