@@ -23,9 +23,18 @@ vim.pack.add({
 	{ src = "https://github.com/nvim-treesitter/nvim-treesitter", version = "main" },
 	"https://github.com/folke/todo-comments.nvim",
 	"https://github.com/brenoprata10/nvim-highlight-colors",
+	"https://github.com/mason-org/mason.nvim",
+	"https://github.com/WhoIsSethDaniel/mason-tool-installer.nvim",
+	"https://github.com/neovim/nvim-lspconfig",
+	{ src = "https://github.com/saghen/blink.cmp", version = vim.version.range("^1") },
+	"https://github.com/nvim-mini/mini.pairs",
+	"https://github.com/stevearc/conform.nvim",
 })
 
 require("ssuarezs.plugins.ui")
 require("ssuarezs.plugins.navigation")
 require("ssuarezs.plugins.highlighting")
+require("ssuarezs.plugins.completion")
+require("ssuarezs.plugins.lsp")
+require("ssuarezs.plugins.formatting")
 require("ssuarezs.plugins.keymaps")
