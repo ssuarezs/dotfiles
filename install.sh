@@ -169,6 +169,9 @@ remove_legacy_tmux_conf
 link_with_backup "$DOTFILES_DIR/ghostty" "$HOME/.config/ghostty"
 link_with_backup "$DOTFILES_DIR/nvim" "$HOME/.config/nvim"
 link_with_backup "$DOTFILES_DIR/lazygit" "$HOME/.config/lazygit"
+link_with_backup "$DOTFILES_DIR/agents/AGENTS.md" "$HOME/.claude/CLAUDE.md"
+link_with_backup "$DOTFILES_DIR/agents/claude-rules" "$HOME/.claude/rules"
+link_with_backup "$DOTFILES_DIR/agents/AGENTS.md" "$HOME/.config/opencode/AGENTS.md"
 if is_macos; then
   link_with_backup "$DOTFILES_DIR/karabiner" "$HOME/.config/karabiner"
 fi
